@@ -21,6 +21,7 @@ export default {
             userLang = navigator.language || navigator.userLanguage;
         }
 
+        userLang = 'en_US';
         return this.load(userLang);
     },
 
